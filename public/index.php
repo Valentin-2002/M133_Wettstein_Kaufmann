@@ -3,7 +3,7 @@
 use Laminas\Mvc\Application;
 use Laminas\Stdlib\ArrayUtils;
 
-/**
+/**test
  * Display all errors when APPLICATION_ENV is development.
  */
 if ($_SERVER['APPLICATION_ENV'] === 'development') {
