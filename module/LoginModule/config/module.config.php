@@ -2,16 +2,8 @@
 
 namespace LoginModule;
 
-use Laminas\ServiceManager\Factory\InvokableFactory;
-
-
 
 return [
-    'controllers' => [
-        'factories' => [
-            Controller\LoginModuleController::class => InvokableFactory::class,
-        ],
-    ],
 
         // The following section is new and should be added to your file:
         'router' => [
@@ -25,7 +17,7 @@ return [
                             'id'     => '[0-9]+',
                         ],
                         'defaults' => [
-                            'controller' => Controller\LoginModuleController::class,
+                            'controller' => Controller\LoginController::class,
                             'action'     => 'index',
                         ],
                     ],

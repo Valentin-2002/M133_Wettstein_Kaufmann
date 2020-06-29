@@ -33,5 +33,5 @@ return [
     'Laminas\DeveloperTools',
     'Laminas\Diactoros',
     'Application',
-    //'LoginModule',
+    'LoginModule',
 ];
